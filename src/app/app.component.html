@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<!--Template desenvolvido por Luccas Matheus-->
+
+<body>
+  <!--MenuBar (NavBar - NavTabs Bootstrap)-->
+  
+  <div class="Menu">
+    <!-- Redes Sociais -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" routerLink="#">SuaLogo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/home">Home <span class="sr-only">(página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " routerLink="/contato">Contato</a>
+          </li>
+        </ul>
+
+        <div class="socialmedia">
+    
+          <a href="https://www.instagram.com/">
+            <img width="24px" alt="Instagram" onContextMenu="return false;"
+              src="../../assets/instagram.png"></a>
+        
+          <a href="http://www.facebook.com/">
+            <img width="24px" alt="Facebook" onContextMenu="return false;" 
+              src="../../assets/facebook.png"></a>
+        
+          <a href="http://www.youtube.com/">
+            <img width="24px" alt="YouTube" onContextMenu="return false;"
+              src="../../assets/youtube.png"></a>
+        
+          <a href="http://www.twitter.com/">
+            <img width="24px" alt="Twitter" onContextMenu="return false;"
+              src="../../assets/twitter.png"></a>
+        
+          <a href="mailto:">
+            <img width="24px" alt="Email" onContextMenu="return false;" 
+              src="../../assets/chat.png"></a>
+        </div>
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+  
+
+  <!-- Logo -->
+  <!-- <div class="logo">
+
+    <img width="22%" alt="Logo" onContextMenu="return false;" 
+    src="../../assets/logo.png">
+    
+  </div> -->
+  
+
+  <router-outlet> </router-outlet>
+
+  <!-- Rodapé da página -->
+  <div class="footer">
+    <p> Copyright &copy; {{title}} by <a href="http://luccasmatheus.ml"> Luccas Matheus </a>. Todos os
+      direitos reservados. 2020 &ndash; {{Ano}} </p>
+    
+      <p class="freepik">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> </p>
+<br>
+  </div>
+</body>

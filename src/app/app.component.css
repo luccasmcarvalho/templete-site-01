@@ -1,0 +1,54 @@
+body{
+    background-color:whitesmoke;
+    background-repeat: repeat;    
+    width: 100%;
+    height: auto;
+
+
+}
+img.logo{
+width: 100px;
+height: 100px;
+}
+
+
+.footer{
+    position: static;
+    bottom: 0;
+    color: black;
+    width: 100%;
+    outline: none;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.footer a {
+    outline: none;
+    color: black;
+}
+.footer a:hover{
+    outline: none;
+
+}
+
+.socialmedia img {
+    padding-right: 3.2%;
+}
+
+nav li {
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 12%;
+    font-variant-caps: all-petite-caps;
+    font-size: 22px;
+    
+}
+
+.logo {
+    width: 66%;
+}
+.freepik {
+    font-size: 10.2px;
+}
